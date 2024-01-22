@@ -20,7 +20,7 @@ text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://yeonwlee.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl :  # does not include hostname
-title   : Your Site Title
+title   : Step by step
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -78,7 +78,7 @@ license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4
 
 ## TOC
 toc:
-  selectors: # "h1,h2,h3" (default)
+  selectors: "h1,h2,h3,h4,h5" # "h1,h2,h3" (default)
 
 
 ## => Markdown Enhancements
