@@ -244,9 +244,9 @@ h1 + .post-meta {
 
     .toc-link {
       display: block;
-      white-space: nowrap;
+      white-space: pre-line;
       overflow: hidden;
-      text-overflow: ellipsis;
+      // text-overflow: ellipsis;
 
       &:hover {
         color: var(--toc-highlight);
