@@ -3,7 +3,7 @@ title: 문제풀이 - 2824. Count Pairs Whose Sum is Less than Target
 author: yeonwlee
 date: 2024-01-29 23:38:00 +0900
 categories: [Algorithm, Problem Solving]
-tags: [알고리즘, 리스트, 정렬, 코딩테스트, leetcode]
+tags: [알고리즘, 리스트, 정렬, 코딩테스트, leetcode, 투포인터]
 ---
 
 <br>
