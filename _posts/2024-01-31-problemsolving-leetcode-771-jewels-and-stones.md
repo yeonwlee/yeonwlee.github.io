@@ -46,8 +46,11 @@ class Solution:
 ```
 
 > 딕셔너리 생성
+>
 > jewels를 set으로 변환 O(n)
+>
 > stone_info에 각 문자별 숫자 세기O(m)
+>
 > jewels을 순회하면서O(n), 해당 값이 stone_info에 있는 경우인 값들을 합산
 
 ### 시간복잡도
