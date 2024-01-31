@@ -1,7 +1,7 @@
 ---
 title: 문제풀이 - 806. Number of Lines To Write String
 author: yeonwlee
-date: 2024-01-29 23:38:00 +0900
+date: 2024-01-31 12:30:00 +0900
 categories: [Algorithm, Problem Solving]
 tags: [알고리즘, 리스트, 딕셔너리, 코딩테스트, leetcode]
 ---
