@@ -14,7 +14,7 @@ tags: [알고리즘, 문자열, 리스트, 코딩테스트, leetcode]
 - [3. 제출한 답](#3-제출한-답)
   - [시간복잡도](#시간복잡도)
 - [4. 더 나은 코드](#4-더-나은-코드)
-- [5. enumerate와() zip()을 함께 사용하기](#5-enumerate와-zip을-함께-사용하기)
+- [5. enumerate()와 zip()을 함께 사용하기](#5-enumerate와-zip을-함께-사용하기)
   - [참고. itertools 모듈의 takewhile()](#참고-itertools-모듈의-takewhile)
 - [6. collections 모듈의 Counter](#6-collections-모듈의-counter)
   - [기본 사용법](#기본-사용법)
@@ -111,7 +111,7 @@ class Solution3:
 4. mismatched_indices의 값을 언패킹해서 변수에 저장
 5. if - return 에서 return으로 변경
 
-## 5. enumerate와() zip()을 함께 사용하기
+## 5. enumerate()와 zip()을 함께 사용하기
 
 ```python
 mismatched_indices = [index for index, (source_char, goal_char) in enumerate(zip(source_sentence, goal_to_make)) if source_char != goal_char]
