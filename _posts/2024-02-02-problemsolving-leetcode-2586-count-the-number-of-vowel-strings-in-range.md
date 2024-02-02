@@ -1,7 +1,7 @@
 ---
 title: 문제풀이 - 2586. Count the Number of Vowel Strings in Range
 author: yeonwlee
-date: 2024-02-02 18:30:00 +0900
+date: 2024-02-02 11:56:00 +0900
 categories: [Algorithm, Problem Solving]
 tags: [알고리즘, 문자열, 리스트, 코딩테스트, leetcode]
 ---
