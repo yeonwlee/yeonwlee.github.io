@@ -64,5 +64,7 @@ O(n) + O(m \* w) + O(k)
 ## 3. 추가공부
 
 isnumeric
+
 int
+
 split
