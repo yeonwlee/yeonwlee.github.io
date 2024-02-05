@@ -1,7 +1,7 @@
 ---
 title: 문제풀이 - 1160. Find Words That Can Be Formed by Characters
 author: yeonwlee
-date: 2024-02-05 11:55:00 +0900
+date: 2024-02-05 12:21:00 +0900
 categories: [Algorithm, Problem Solving]
 tags: [알고리즘, 문자열, 카운터, 코딩테스트, leetcode, 추가공부]
 ---
@@ -111,7 +111,7 @@ class Solution3:
 
 ### 시간복잡도
 
-마지막 모드의 시간복잡도는 O(n + mw) 이다.
+마지막 코드의 시간복잡도는 O(n + mw) 이다.
 
 ## 4. 추가공부
 
