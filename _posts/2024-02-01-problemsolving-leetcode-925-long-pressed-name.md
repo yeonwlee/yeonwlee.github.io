@@ -2,6 +2,7 @@
 title: 문제풀이 - 925. Long Pressed Name
 author: yeonwlee
 date: 2024-02-01 18:30:00 +0900
+pin: true
 categories: [Algorithm, Problem Solving]
 tags:
   [알고리즘, 문자열, 제너레이터, 리스트, 코딩테스트, leetcode, 추가공부, 생각]
