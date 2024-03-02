@@ -63,7 +63,7 @@ itertools에 zip_longest라는 것이 있다.
 대신, fillvalue를 사용해 더 짧은 이터러블이 끝났을 때 해당 값으로 채워 반환한다.(기본값은 None)
 
 ```python
-    from itertools import zip_longest
+from itertools import zip_longest
 
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
