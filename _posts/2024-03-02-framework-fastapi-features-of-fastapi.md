@@ -2,7 +2,7 @@
 title: 프레임워크 - FastAPI에 대하여
 author: yeonwlee
 date: 2024-03-02 15:13:00 +0900
-categories: [Tool, FastAPI]
+categories: [Python, FastAPI]
 tags: [프레임워크, FastAPI, 특징, 비교]
 ---
 
