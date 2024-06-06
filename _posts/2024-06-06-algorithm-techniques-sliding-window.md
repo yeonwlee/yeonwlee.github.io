@@ -15,6 +15,7 @@ tags: [알고리즘, 슬라이딩윈도우, 투포인터]
 - [3. 슬라이딩 윈도우와 투포인터](#3-슬라이딩-윈도우와-투포인터)
 - [4. 연습문제](#4-연습문제)
   - [4.1 고정 길이 부분 배열의 최대 합](#41-고정-길이-부분-배열의-최대-합)
+  - [4.2 최대 길이의 고유 문자 부분 문자열 찾기](#42-최대-길이의-고유-문자-부분-문자열-찾기)
 
 ---
 
@@ -99,4 +100,49 @@ for index in range(length_of_part, length_of_arr):
     max_sum = max(max_sum, window_sum)
 
 print(max_sum)
+```
+
+### 4.2 최대 길이의 고유 문자 부분 문자열 찾기
+
+```python
+'''
+
+문제 설명
+주어진 문자열에서 모든 문자가 고유한 가장 긴 부분 문자열의 길이를 구하세요.
+
+입력
+문자열 s가 주어집니다. 문자열의 길이는 1 이상 100,000 이하입니다.
+
+출력
+모든 문자가 고유한 가장 긴 부분 문자열의 길이를 출력합니다.
+
+예제 입력
+abcabcbb
+
+예제 출력
+3
+
+설명
+입력 문자열 abcabcbb에서 모든 문자가 고유한 가장 긴 부분 문자열은 abc로, 길이는 3입니다.
+'''
+
+import sys
+
+input = sys.stdin.readline
+
+source_str = input().rstrip()
+
+left: int = 0
+max_length_of_unique_char: int = 0
+char_set = set() # 현재 윈도우 내의 고유 문자를 저장하는 집합
+
+for right in range(len(source_str)):
+    # 현재 문자가 이미 집합에 있는 경우, 중복 문자가 없어질 때까지 왼쪽 포인터를 이동
+    while source_str[right] in char_set:
+        char_set.remove(source_str[left])
+        left += 1
+    char_set.add(source_str[right])
+    max_length_of_unique_char = max(max_length_of_unique_char, right - left + 1)
+
+print(max_length_of_unique_char)
 ```
