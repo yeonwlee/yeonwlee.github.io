@@ -33,7 +33,8 @@ tags: [포트폴리오]
 
 **맡은 역할**: 기업 데이터 크롤링, 추천 시스템, AI 직원과 바이어의 대화 요약 시스템
 
-**Github**: https://github.com/meta-convention-mtvs/chat-server
+**Github**: [https://github.com/meta-convention-mtvs/chat-server](https://github.com/meta-convention-mtvs/chat-server)
+
 
 
 ## 2. 스크린샷을 DB화, 검색 및 요약 기능 제공
